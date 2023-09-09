@@ -20,9 +20,11 @@ const Home = () => {
           <span>See more about me</span>
         </div>
         <div className="intro-footer">
-          <button type="button" className="fs-4 me-3">
-            Resume
-          </button>
+          <a href="resume.pdf" target="_blank">
+            <button type="button" className="fs-4 me-3">
+              Resume
+            </button>
+          </a>
           <a href="mailto:ticamporn.g@gmail.com">
             <img src="/icons/email.png" alt="gmail" width={40} />
           </a>
