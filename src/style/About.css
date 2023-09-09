@@ -1,0 +1,95 @@
+.About {
+    margin-top: 14rem;
+    padding: 0 5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.About img {
+    border-radius: 40px;
+}
+
+.About p,
+.About a {
+    color: #000000b5;
+    font-size: 18px;
+}
+
+.About b {
+    color: black;
+}
+
+.About a {
+    text-decoration: none;
+}
+
+.About a:hover {
+    text-decoration: underline;
+}
+
+.About section {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.About section article {
+    border: 2px solid var(--bd-col);
+    padding: 1rem;
+    border-radius: 14px;
+    width: 100%;
+}
+
+.About section div {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.About section i {
+    padding: 14px;
+    font-size: 1.5rem;
+    background-color: var(--bd-col);
+    color: var(--bg-col);
+    border-radius: 50%;
+}
+
+@media screen and (max-width:1300px) {
+    .About {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    .About p,
+    .About a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .About img {
+        width: 270px;
+    }
+
+    .About p,
+    .About a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .About {
+        flex-direction: column;
+    }
+
+    .About h1,
+    .p-descript {
+        text-align: center;
+    }
+
+    .About .p-descript {
+        font-size: 15px;
+    }
+}

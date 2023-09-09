@@ -1,0 +1,84 @@
+.Intro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.intro-cont-1 div>span {
+    font-size: 1.8rem;
+    color: var(--f-col);
+}
+
+.intro-cont-1 span:nth-child(2) {
+    font-size: 3.5rem;
+    color: black;
+}
+
+.intro-cont-1 span:nth-child(3) {
+    font-size: 2.5rem;
+    color: var(--f-col);
+}
+
+.Intro button {
+    background-color: var(--bg-col);
+    color: #fff;
+    padding: 6px 12px;
+    border-color: transparent;
+    border-radius: 6px !important;
+}
+
+.Intro button:hover {
+    color: #fff;
+    background: #000;
+}
+
+.intro-footer {
+    display: flex;
+    align-items: end;
+    padding: 1rem 0;
+}
+
+@media screen and (max-width:992px) {
+    .Intro div>img:first-child {
+        max-width: 100%;
+        width: 300px;
+        height: 300px;
+    }
+
+    .intro-cont-1 div>span {
+        font-size: 1.5rem;
+        color: var(--f-col);
+    }
+
+    .intro-cont-1 span:nth-child(2) {
+        font-size: 2.2rem;
+        color: black;
+    }
+
+    .intro-cont-1 span:nth-child(3) {
+        font-size: 1.8rem;
+        color: var(--f-col);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .Intro {
+        flex-direction: column;
+    }
+
+    .Intro span {
+        text-align: center;
+    }
+
+    .Intro .hello {
+        justify-content: center;
+    }
+
+    .Intro .intro-footer {
+        justify-content: center;
+    }
+
+    .Intro .img-profile {
+        margin-top: 3rem;
+    }
+}

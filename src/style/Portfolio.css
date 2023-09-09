@@ -1,0 +1,87 @@
+.Portfolio {
+    margin-top: 14rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.PortfolioItem {
+    padding: 3rem 5rem;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3.6rem;
+}
+
+.PortfolioItem section {
+    border: 2px solid var(--c-border-col);
+    border-radius: 14px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.PortfolioItem img {
+    max-width: 100%;
+    border-radius: 14px;
+}
+
+.PortfolioItem h5 {
+    margin-top: 1rem;
+}
+
+.PortfolioItem span {
+    margin-bottom: 1rem;
+    color: var(--f-col);
+    height: 100%;
+}
+
+.PortfolioItem button {
+    width: 100%;
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solid var(--c-border-col);
+    border-radius: 14px;
+}
+
+.PortfolioItem a {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.PortfolioItem a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1300px) {
+    .PortfolioItem {
+        padding: 1rem;
+        gap: 3.46rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .PortfolioItem {
+        padding: 1rem;
+        gap: 2.89rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .PortfolioItem {
+        gap: 3.4rem;
+    }
+
+    .PortfolioItem section {
+        width: 46%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .PortfolioItem section {
+        width: 100%;
+    }
+}
