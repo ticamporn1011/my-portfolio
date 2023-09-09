@@ -10,7 +10,7 @@ const Home = () => {
             <span>Hello !!!</span>
             <img
               className="hello-img"
-              src="src/assets/icons/hello.png"
+              src="/icons/hello.png"
               alt="hello"
               width={35}
               height={35}
@@ -24,11 +24,11 @@ const Home = () => {
             Resume
           </button>
           <a href="#g-mail">
-            <img src="src/assets/icons/email.png" alt="gmail" width={40} />
+            <img src="/icons/email.png" alt="gmail" width={40} />
           </a>
           <a href="#gitHub">
             <img
-              src="src/assets/icons/github.png"
+              src="/icons/github.png"
               className="p-1"
               alt="github"
               width={40}
@@ -38,7 +38,7 @@ const Home = () => {
       </div>
       <div className="img-profile">
         <img
-          src="src/assets/profile.jpg"
+          src="/profile.jpg"
           className="rounded-circle"
           alt="profile"
           width={410}

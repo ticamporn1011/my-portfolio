@@ -4,7 +4,7 @@ const PortfolioItem = () => {
   return (
     <div className="PortfolioItem">
       <section>
-        <Image src="src/assets/port-img/mern-workshop.png" alt="port-1" />
+        <Image src="/port-img/mern-workshop.png" alt="port-1" />
         <h5>MERN Stack Project</h5>
         <span>
           Article management system that users can use to read articles And admins can
@@ -16,7 +16,7 @@ const PortfolioItem = () => {
         </button>
       </section>
       <section>
-        <Image src="src/assets/port-img/intern-pro.png" alt="intern-pro" />
+        <Image src="/port-img/intern-pro.png" alt="intern-pro" />
         <h5>Internship Project</h5>
         <span>
           It is a project that I have done during my internship period. By creating a
@@ -28,7 +28,7 @@ const PortfolioItem = () => {
         </button>
       </section>
       <section>
-        <Image src="src/assets/port-img/web-requests.png" alt="port-1" />
+        <Image src="/port-img/web-requests.png" alt="port-1" />
         <h5>Web Requests Project</h5>
         <span>
           This project is in the Web Application Development course. It's about user
