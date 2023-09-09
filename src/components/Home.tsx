@@ -20,7 +20,7 @@ const Home = () => {
           <span>See more about me</span>
         </div>
         <div className="intro-footer">
-          <a href="resume.pdf" target="_blank">
+          <a href="/resume.pdf" target="_blank">
             <button type="button" className="fs-4 me-3">
               Resume
             </button>

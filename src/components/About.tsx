@@ -9,7 +9,7 @@ const About = () => {
       <div>
         <h1>Profile</h1>
         <p className="mb-4 p-descript">
-          I chose full web stack developer. Because I think this is the best I can do. It
+          I chose full stack web developer. Because I think this is the best I can do. It
           always gives me new and creative ideas. Because it requires a fair amount of
           coding skills, I have to be thorough for the best results. I am always ready to
           improve myself, update my knowledge and practice doing projects to improve my
