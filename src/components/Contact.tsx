@@ -7,7 +7,7 @@ const Contact = () => {
       <section>
         <article>
           <i className="fa-solid fa-envelope"></i>
-          <span>ticamporn.c@gmail.com</span>
+          <span>ticamporn.g@gmail.com</span>
         </article>
         <article>
           <i className="fa-solid fa-phone"></i>

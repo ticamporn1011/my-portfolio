@@ -23,16 +23,11 @@ const Home = () => {
           <button type="button" className="fs-4 me-3">
             Resume
           </button>
-          <a href="#g-mail">
+          <a href="mailto:ticamporn.g@gmail.com">
             <img src="/icons/email.png" alt="gmail" width={40} />
           </a>
-          <a href="#gitHub">
-            <img
-              src="/icons/github.png"
-              className="p-1"
-              alt="github"
-              width={40}
-            />
+          <a href="https://github.com/ticamporn1011" target="_blank">
+            <img src="/icons/github.png" className="p-1" alt="github" width={40} />
           </a>
         </div>
       </div>

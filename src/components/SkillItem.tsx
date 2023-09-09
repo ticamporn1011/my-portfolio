@@ -22,7 +22,7 @@ const SkillItem = () => {
           <article>
             <span>Node.js</span>
             <hr />
-            <span>Jest</span>
+            <span>Git&GitHub</span>
             <hr />
           </article>
         </section>

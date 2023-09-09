@@ -6,37 +6,43 @@ const PortfolioItem = () => {
       <section>
         <Image src="/port-img/mern-workshop.png" alt="port-1" />
         <h5>MERN Stack Project</h5>
-        <span>
+        {/* <span>
           Article management system that users can use to read articles And admins can
           add, delete, and edit articles using CRUD RestAPI and set access permissions
           with JWT.
-        </span>
+        </span> */}
         <button type="button">
-          <a href="">GitHub</a>
+          <a href="https://github.com/ticamporn1011/mern-stack-project" target="_blank">
+            GitHub
+          </a>
         </button>
       </section>
       <section>
         <Image src="/port-img/intern-pro.png" alt="intern-pro" />
         <h5>Internship Project</h5>
-        <span>
+        {/* <span>
           It is a project that I have done during my internship period. By creating a
           system to add features to the seller-side products, such as specifying size and
           color for clothing products, using the MEAN Stack.
-        </span>
+        </span> */}
         <button type="button">
-          <a href="">GitHub</a>
+          <a href="https://github.com/ticamporn1011/internship-project" target="_blank">
+            GitHub
+          </a>
         </button>
       </section>
       <section>
         <Image src="/port-img/web-requests.png" alt="port-1" />
         <h5>Web Requests Project</h5>
-        <span>
+        {/* <span>
           This project is in the Web Application Development course. It's about user
           requests. Users can add, delete and edit data. It also links to MySQL database
           to show the dashboard.
-        </span>
+        </span> */}
         <button type="button">
-          <a href="">GitHub</a>
+          <a href="https://github.com/ticamporn1011/web-requests-project" target="_blank">
+            GitHub
+          </a>
         </button>
       </section>
       {/* <section>

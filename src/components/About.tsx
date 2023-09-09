@@ -35,7 +35,7 @@ const About = () => {
               <i className="fa-solid fa-address-card"></i>
             </div>
             <p>
-              <b>Gmail:</b> ticamporn.c@gmail.com
+              <b>Gmail:</b> ticamporn.g@gmail.com
             </p>
             <p>
               <b>Tel:</b> +66 6109 62733
