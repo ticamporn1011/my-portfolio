@@ -1,5 +1,4 @@
 import '../style/Home.css';
-import { Link } from 'react-router-dom';
 
 const Home = () => {
   const name = `I'm Ticamporn`;
@@ -21,11 +20,11 @@ const Home = () => {
           <span>See more about me</span>
         </div>
         <div className="intro-footer">
-          <Link to="/resume.pdf" target="_blank">
+          <a href="/resume.pdf" target="_blank">
             <button type="button" className="fs-4 me-3">
               Resume
             </button>
-          </Link>
+          </a>
           <a href="mailto:ticamporn.g@gmail.com">
             <img src="/icons/email.png" alt="gmail" width={40} />
           </a>
