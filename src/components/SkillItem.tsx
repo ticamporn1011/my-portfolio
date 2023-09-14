@@ -1,6 +1,6 @@
 const SkillItem = () => {
   return (
-    <div className="SkillItem">
+    <div className="SkillItem skill__item">
       <div className="content-item me-5">
         <div className="line-head">
           <div className="line-hr1" />

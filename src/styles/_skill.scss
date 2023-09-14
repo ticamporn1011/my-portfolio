@@ -1,0 +1,93 @@
+@use './abstract' as a;
+
+.skill {
+    margin-top: 14rem;
+    text-align: center;
+
+    &__item {
+        padding: 3rem 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .content-item {
+            display: flex;
+
+            .line-head {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0 2rem 0 0;
+
+                .line-hr1 {
+                    border: 2px solid a.$color-second;
+                    width: 30px;
+                }
+
+                .line-hr2 {
+                    border: 3px solid a.$color-second;
+                    height: 100%;
+                    border-style: dashed;
+                }
+            }
+
+            section {
+                display: flex;
+
+                article {
+                    display: flex;
+                    flex-direction: column;
+                    padding-right: 2rem;
+
+                    span {
+                        font-size: 1.3rem;
+                        color: a.$color-first;
+                    }
+
+                    hr {
+                        margin: 12px 0;
+                        border: 2px solid #7C7F96;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+
+        @media (max-width:992px) {
+            flex-direction: column;
+
+            .content-item {
+                margin-bottom: 2rem;
+            }
+
+            .content-item:first-child {
+                margin-right: 0 !important;
+            }
+
+            hr {
+                width: 110px;
+            }
+        }
+
+        @media screen and (max-width:768px) {
+            padding: 3rem;
+        }
+
+        @media screen and (max-width:576px) {
+            align-items: center;
+
+            section {
+                flex-direction: column;
+            }
+
+            .content-item:last-child section:last-child article {
+                padding: 0 2rem 0 0;
+            }
+
+            hr {
+                width: 120px;
+            }
+        }
+    }
+}

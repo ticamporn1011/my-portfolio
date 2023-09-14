@@ -1,8 +1,6 @@
-import '../style/Contact.css';
-
 const Contact = () => {
   return (
-    <div id="contact" className="Contact">
+    <div id="contact" className="Contact contact">
       <h1>Contact</h1>
       <section>
         <article>

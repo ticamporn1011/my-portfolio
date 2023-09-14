@@ -1,12 +1,10 @@
-import '../style/About.css';
-
 const About = () => {
   return (
-    <div id="about" className="About">
+    <div id="about" className="About about">
       <div>
         <img src="/profile2.jpg" alt="profile2" width={350} />
       </div>
-      <div>
+      <div className="about__content">
         <h1>Profile</h1>
         <p className="mb-4 p-descript">
           I chose full stack web developer. Because I think this is the best I can do. It

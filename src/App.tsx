@@ -1,4 +1,3 @@
-import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
 import HeaderNavbar from './components/HeaderNavbar';
@@ -17,19 +16,19 @@ function App() {
       duration: 1500
     });
 
-    sc.reveal('.Intro', {
+    sc.reveal('.home', {
       origin: 'top',
       distance: '50px',
       duration: 2000
     });
 
-    sc.reveal('.Intro .hello-img', {
+    sc.reveal('.home .hello-img', {
       origin: 'right',
       distance: '30px',
       duration: 2000
     });
 
-    sc.reveal('.Intro .img-profile', {
+    sc.reveal('.home .img-profile', {
       origin: 'right',
       distance: '30px',
       duration: 2000

@@ -1,11 +1,9 @@
-import '../style/Home.css';
-
 const Home = () => {
   const name = `I'm Ticamporn`;
   return (
-    <div className="Intro">
+    <div className="Intro home">
       <div>
-        <div className="intro-cont-1 d-flex flex-column">
+        <div className="intro-cont-1 home__first d-flex flex-column">
           <div className="d-flex gap-2 hello">
             <span>Hello !!!</span>
             <img
@@ -19,7 +17,7 @@ const Home = () => {
           <span>{name}</span>
           <span>See more about me</span>
         </div>
-        <div className="intro-footer">
+        <div className="intro-footer home__second">
           <a href="/resume.pdf" target="_blank">
             <button type="button" className="fs-4 me-3">
               Resume
@@ -33,7 +31,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <div className="img-profile">
+      <div className="img-profile home__profile">
         <img
           src="/profile.jpg"
           className="rounded-circle"

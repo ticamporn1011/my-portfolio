@@ -1,9 +1,8 @@
-import '../style/Portfolio.css';
 import PortfolioItem from './PortfolioItem';
 
 const Portfolio = () => {
   return (
-    <div id="portfolio" className="Portfolio">
+    <div id="portfolio" className="Portfolio port">
       <h1>Portfolio</h1>
       <PortfolioItem />
     </div>

@@ -2,7 +2,7 @@ import { Image } from 'antd';
 
 const PortfolioItem = () => {
   return (
-    <div className="PortfolioItem">
+    <div className="PortfolioItem port__item">
       <section>
         <Image src="/port-img/mern-workshop.png" alt="port-1" />
         <h5>MERN Stack Project</h5>
